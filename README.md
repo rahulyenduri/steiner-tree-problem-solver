@@ -30,13 +30,13 @@ This exact algorithm explores all possible solutions, recursively dividing the p
 
 **Pseudo Code:**
 
-'''
+```
 BranchAndBound(Graph G, Set T):
     Initialize least_cost = INFINITY
     Initialize optimal_tree = NULL
     Call SubProblemSolver(G, T, {}, 0, least_cost, optimal_tree)
     Return optimal_tree
-'''
+```
 
 ### 2. Vazirani and Yannakakis Approximation Algorithm
 
@@ -44,11 +44,11 @@ This approximation algorithm provides near-optimal solutions within a constant f
 
 **Pseudo Code:**
 
-'''
+```
 VAY(Graph G, Set T):
     MST = MinimumSpanningTree(G)
     Return MST
-'''
+```
 
 ## Mathematical Formulation
 
